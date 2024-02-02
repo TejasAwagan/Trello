@@ -1,0 +1,19 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    color: white;
+    padding: 1rem;
+   
+}
+
+.header{
+    display: flex;
+    gap: 1rem;
+}
+
+.header h3{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}

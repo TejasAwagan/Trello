@@ -1,0 +1,80 @@
+.card{
+    background-color: #1f21278a;
+    padding:  .8rem;
+    width: 16rem;
+    max-height: 80vh;
+    /* overflow-y: auto; */
+    display: flex;
+    flex-direction: column;
+    border-radius: .3rem;
+    gap: 1rem;
+    margin: .5rem;
+}
+
+.card header{
+    color: rgb(252, 249, 249);
+    font-weight: 600;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card b{
+    cursor: pointer;
+}
+
+.task-list{
+    display: flex;
+    flex-direction: column;
+    padding: .5rem 0;
+    /* overflow-y: auto; */
+
+}
+
+.task-item{
+    background-color: white;
+    border-radius: .3rem;
+    padding: .8rem .5rem;
+    box-shadow: 0 .1rem  grey;
+    cursor: pointer;
+    display: flex;
+    font-size: .8rem;
+    justify-content: space-between;
+    /* gap: 1rem; */
+}
+
+.card .task-list svg{
+    width: 1rem;
+}
+
+.card footer{
+    font-weight: 600;
+    color: grey;
+    cursor: pointer;
+    gap: .6rem;
+    display: flex;
+    align-items: center;
+}
+
+.card footer svg{
+    width: 1rem;
+    fill: grey;
+}
+
+
+.card-ghost {
+    transition: transform 0.18s ease;
+    transform: rotateZ(5deg);
+    font-weight: bold;
+  }
+  
+  .card-ghost-drop{
+    transition: transform 0.18s ease-in-out;
+    transform: rotateZ(0deg)
+  }
+
+  .drop-preview {
+    background-color: rgba(150, 150, 200, 0.1);
+    border: 1px dashed #abc;
+    margin: 5px;
+  }
